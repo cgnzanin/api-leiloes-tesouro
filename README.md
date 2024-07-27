@@ -28,13 +28,13 @@ Este projeto é uma API pública para consulta de dados referentes aos leilões 
 Para instalar o pacote diretamente do GitHub, você pode adicionar a seguinte linha ao arquivo `requirements.txt` do seu projeto ou instalar diretamente via `pip`:
 
 ```
-git+https://github.com/seu_usuario/seu_repositorio.git
+git+https://github.com/cgnzanin/api-leiloes-tesouro
 ```
 
 Exemplo de comando para instalação direta:
 
 ```bash
-pip install git+https://github.com/seu_usuario/seu_repositorio.git
+pip install git+https://github.com/cgnzanin/api-leiloes-tesouro
 ```
 
 ### Uso
