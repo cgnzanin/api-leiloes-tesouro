@@ -1,7 +1,0 @@
-README.md
-setup.py
-src/tesouroapi.egg-info/PKG-INFO
-src/tesouroapi.egg-info/SOURCES.txt
-src/tesouroapi.egg-info/dependency_links.txt
-src/tesouroapi.egg-info/requires.txt
-src/tesouroapi.egg-info/top_level.txt

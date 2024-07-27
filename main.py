@@ -12,11 +12,11 @@ comunicados = api.get_comunicados()
 print("Comunicados:", comunicados)
 
 # Exemplo 3: Obtendo portarias com data específica
-portarias = api.get_portarias(data_leilao='15/07/2024')
+portarias = api.get_portarias(data_leilao='16/07/2024')
 print("Portarias:", portarias)
 
 # Exemplo 4: Obtendo resultados de leilões com data específica
-resultados = api.get_resultados(dataleilao='15/07/2024')
+resultados = api.get_resultados()
 print("Resultados:", resultados)
 
 # Exemplo 5: Obtendo dealers
@@ -28,9 +28,9 @@ calendario = api.get_calendario()
 print("Calendário:", calendario)
 
 # Exemplo 7: Obtendo homologações com data específica
-homologacao = api.get_homologacao(data_leilao='15/07/2024')
+homologacao = api.get_homologacao(data_leilao='16/07/2024')
 print("Homologação:", homologacao)
 
 # Exemplo 8: Obtendo trocas com data específica
-troca = api.get_troca(data_leilao='15/07/2024')
+troca = api.get_troca(data_leilao='16/07/2024')
 print("Troca:", troca)
