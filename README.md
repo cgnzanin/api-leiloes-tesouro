@@ -51,6 +51,3 @@ print(benchmarks)
 
 ## Contribuições
 Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request para melhorias ou correções.
-
-## Licença
-Este projeto é licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
