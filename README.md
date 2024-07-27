@@ -22,9 +22,35 @@ Este projeto é uma API pública para consulta de dados referentes aos leilões 
 - **Troca**: Informações sobre leilões de troca de títulos.
 
 ## Como Usar
-1. Clone o repositório para sua máquina local.
-2. Instale as dependências necessárias.
-3. Use os métodos da classe `APITesouro` para interagir com a API.
+
+### Instalação
+
+Para instalar o pacote diretamente do GitHub, você pode adicionar a seguinte linha ao arquivo `requirements.txt` do seu projeto ou instalar diretamente via `pip`:
+
+```
+git+https://github.com/seu_usuario/seu_repositorio.git
+```
+
+Exemplo de comando para instalação direta:
+
+```bash
+pip install git+https://github.com/seu_usuario/seu_repositorio.git
+```
+
+### Uso
+
+Após a instalação, você pode usar os métodos da classe `APITesouro` para interagir com a API:
+
+```python
+from tesouroapi import APITesouro
+
+api = APITesouro()
+benchmarks = api.get_benchmarks()
+print(benchmarks)
+```
 
 ## Contribuições
 Contribuições são bem-vindas! Por favor, abra uma issue ou envie um pull request para melhorias ou correções.
+
+## Licença
+Este projeto é licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
