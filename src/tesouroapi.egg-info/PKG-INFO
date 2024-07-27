@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tesouroapi
+Version: 0.1.0
+Summary: API para consulta de dados dos leilões do Tesouro Nacional
+Author: Cleber Gabriel Nicolussi Zanin
+Author-email: clebergnz@gmail.com
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Requires-Dist: requests
